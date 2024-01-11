@@ -30,7 +30,7 @@ const Todo = () => {
     <div className='todo'>
         <div className="todo-header">To-Do List</div>
         <div className="todo-add">
-            <input ref={inputRef} type="text" placeholder='Add Your Task' className='todo-input'/>
+            <input ref={inputRef} type="text" placeholder='Add Your Task in here' className='todo-input'/>
             <div onClick={()=>{add()}} className="todo-add-btn">ADD</div>
         </div>
         <div className="todo-list">
